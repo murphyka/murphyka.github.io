@@ -1,6 +1,22 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"makadia":
+  - firstname: ["Ameesh"]
+    url: https://amakadia.github.io/
+
+"bassett":
+  - firstname: ["Dani", "Dani S."]
+    url: https://complexsystemsupenn.com/
+
+"jampani":
+  - firstname: ["Varun"]
+    url: http://varunjampani.github.io/
+
+"ramalingam":
+  - firstname: ["Srikumar"]
+    url: https://scholar.google.com/citations?hl=en&user=6m1ptOgAAAAJ
+
+"esteves":
+  - firstname: ["Carlos"]
+    url: https://machc.github.io/
 
 "podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]

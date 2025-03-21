@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+em.self {
+  font-weight: bold;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -734,26 +738,48 @@ footer.sticky-bottom {
 
       .abbr {
         margin-bottom: 0.5rem;
+        color: $black-color !important;
 
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          
 
           a {
-            color: white;
+            color: $black-color;
 
             &:hover {
-              text-decoration: none;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .abbr.badge, .abbr.badge * {
+        color: #000 !important;
+      }
+
+      .award {
+        margin-bottom: 0.5rem;
+
+        &.badge {
+          display: inline-block;
+          background-color: var(--global-pleasant-blue);
+          margin-bottom: 0.5rem;
+          color: #000 !important;
+
+          a {
+            color: #000;
+
+            &:hover {
+              text-decoration: underline;
             }
           }
         }
 
-        .award {
-          color: var(--global-theme-color) !important;
-          border: 1px solid var(--global-theme-color);
-        }
+      }
+      .award.badge, .award.badge * {
+        color: #000 !important;
       }
 
       .title {
@@ -801,9 +827,6 @@ footer.sticky-bottom {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
-        }
-        a.award.btn {
-          border-color: var(--global-highlight-color);
         }
       }
 
@@ -861,12 +884,6 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
-    }
-    div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
-    }
-    div.award.hidden.open {
-      border-color: var(--global-highlight-color);
     }
   }
 }
