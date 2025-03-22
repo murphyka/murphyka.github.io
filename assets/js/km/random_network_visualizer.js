@@ -1,56 +1,10 @@
----
-layout: about
-title: about
-permalink: /
-subtitle: Visualizing the structure of information contained within data.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
-
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
----
-
-A mix of information theory, machine learning, and physics, with an emphasis on visualization.
-
-**University of Pennsylvania**   Postdoc, 2021-
-
-**Google Research**  AI Resident, 2019-2021
-
-**University of Chicago**  PhD (Physics), 2013-2019
-
-**UC Berkeley**  BA (Physics, computer science), 2009-2013
-
-**Lawrence Berkeley National Lab** Research assistant, 2012-2013
-
-<br>
-<br>
-<br>
-
 <div style="text-align: center">
-<canvas id="canvas" width="600" height="600" style="text-align: center"></canvas>
+<canvas id="canvas" width="600" height="600"></canvas>
 
 <br>
 <button onclick="draw()">Generate</button>
 <br>
-Number of layers: <input type="text" id="textInput" value="2" style="width: 15px;border:none">
-<input type="range" min="1" max="8" value="2" class="slider" id="num_layers_slider" onchange="updateTextInput(this.value);" style="margin-left:2em"> 
+Number of layers: <input type="text" id="textInput" value="2" style="width: 10px;border:none"></input> <input type="range" min="1" max="8" value="2" class="slider" id="num_layers_slider" onchange="updateTextInput(this.value);"> 
 <form>Nonlinearity: 
     <input type="radio" name="act_fn_btns" value="tanh" id="tanh_btn" checked=true> tanh
     <input type="radio" name="act_fn_btns" value="relu" id="relu_btn"> relu
@@ -66,13 +20,13 @@ function updateTextInput(val) {
         }
 </script>
 <script type="application/javascript">
-  // if (screen.width > 900) {
-  N = 120;
-  lw = 0.5;
-  // } else {
-  //   N = 80;
-  //   lw = 0.8;
-  // }
+  if (screen.width > 900) {
+  	N = 120;
+    lw = 0.5;
+  } else {
+    N = 80;
+    lw = 0.8;
+  }
   d = 1.;
   x = tf.linspace(-d, d, N);
   y = tf.linspace(-d, d, N);
@@ -84,7 +38,8 @@ function updateTextInput(val) {
   const b_std = 0.5;
   const num_units = 64;
   function draw() {tf.tidy(() => {
-    h = 400
+    spacerBlock = document.getElementById("block-yui_3_17_2_1_1618842604252_4599");
+  	const h = spacerBlock.clientWidth-10;
     var canvas = document.getElementById("canvas");
     canvas.width = h;
     canvas.height = h;
@@ -134,9 +89,6 @@ function updateTextInput(val) {
       var ctx = canvas.getContext('2d');
       ctx.lineWidth = lw;
       ctx.clearRect(0, 0, canvas.width, canvas.height);
-      const isDark = document.documentElement.getAttribute('data-theme') === 'dark'
-
-      ctx.strokeStyle = isDark ? '#ffffff' : '#000000';
       v_out.array().then(arr => {
         for (var i = 0; i < N; i++) {
           path = new Path2D();
@@ -150,16 +102,5 @@ function updateTextInput(val) {
   } 
   } )
 }
-
-document.addEventListener("themeChanged", function () {
-  draw();
-});
-
 </script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    draw();
-  });
-</script>
-
+<body onload="draw()">

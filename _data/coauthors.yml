@@ -5,6 +5,8 @@
 "bassett":
   - firstname: ["Dani", "Dani S."]
     url: https://complexsystemsupenn.com/
+  - firstname: ["Lee C."]
+    url: https://nanoquant.seas.upenn.edu/
 
 "jampani":
   - firstname: ["Varun"]
@@ -18,33 +20,74 @@
   - firstname: ["Carlos"]
     url: https://machc.github.io/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"jaeger":
+  - firstname: ["Heinrich", "Heinrich M."]
+    url: https://www.jaegerlab.com/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"patankar":
+  - firstname: ["Shubhankar", "Shubhankar P."]
+    url: https://sppatankar.com/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"ouellet":
+  - firstname: ["Mathieu"]
+    url: https://scholar.google.com/citations?user=X2HAC70AAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"cervino":
+  - firstname: ["Juan"]
+    url: https://juancervino.github.io/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"ribeiro":
+  - firstname: ["Alejandro"]
+    url: https://alelab.seas.upenn.edu/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"yin":
+  - firstname: ["Zhuowen"]
+    url: https://scholar.google.com/citations?user=TcJ878YAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"zhang":
+  - firstname: ["Yujing"]
+    url: https://engineering.purdue.edu/Engr/People/ptProfile?resource_id=285701
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"han":
+  - firstname: ["Endao"]
+    url: https://endaohan1988.wixsite.com/hanlab
+
+"kruppe":
+  - firstname: ["Jonathon W."]
+    url: https://scholar.google.com/citations?user=0mLGa_cAAAAJ&hl=en
+
+"dillavou":
+  - firstname: ["Sam"]
+    url: https://scholar.google.com/citations?user=FehGbqYAAAAJ&hl=en
+
+"chan":
+  - firstname: ["Edwin P."]
+    url: https://scholar.google.ca/citations?user=JuXJgKEAAAAJ&hl=en
+
+"lim":
+  - firstname: ["Melody X."]
+    url: https://scholar.google.com/citations?user=RGR3fQMAAAAJ&hl=en
+
+"dahmen":
+  - firstname: ["Karin A."]
+    url: https://physics.illinois.edu/people/directory/profile/dahmen
+
+"mackeith":
+  - firstname: ["Arthur K."]
+    url: https://physics-engineering-biology.yale.edu/profile/arthur-mackeith
+
+"roth":
+  - firstname: ["Leah K.", "Leah"]
+    url: https://scholar.google.com/citations?user=ZA13HkUAAAAJ&hl=en
+
+"peterman":
+  - firstname: ["Dan"]
+    url: https://artandarthistory.uic.edu/profile/dan-peterman
+
+"reiser":
+  - firstname: ["Nikolaj"]
+    url: https://scholar.google.com/citations?hl=en&user=lJBFbZcAAAAJ&view_op=list_works
+
+"singer":
+  - firstname: ["Clare E."]
+    url: https://claresinger.github.io/
