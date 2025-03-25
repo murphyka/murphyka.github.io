@@ -214,8 +214,8 @@
       {% if entry.project_website %}
         <a href="{{ entry.project_website }}" class="btn btn-sm z-depth-0" role="button">Project website</a>
       {% endif %}
-      {% if entry.abstract %}
-        <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+      {% if entry.blurb %}
+        <a class="abstract btn btn-sm z-depth-0" role="button">Blurb</a>
       {% endif %}
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
@@ -354,10 +354,10 @@
       </div>
     {% endif %}
 
-    {% if entry.abstract %}
+    {% if entry.blurb %}
       <!-- Hidden abstract block -->
       <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
+        <p>{{ entry.blurb }}</p>
       </div>
     {% endif %}
 
