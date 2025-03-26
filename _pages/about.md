@@ -2,19 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: Visualizing the structure of information contained within data.
+subtitle: <em>Visualizing the structure of information with machine learning.</em>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  # more_info: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -27,20 +23,32 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-A mix of information theory, machine learning, and physics, with an emphasis on visualization.
+Hello and welcome to my site!  
 
-**University of Pennsylvania**   Postdoc, 2021-
+My research has evolved from physics toward machine learning and information theory over the years, always taking an experimental approach toward understanding complex systems. 
 
-**Google Research**  AI Resident, 2019-2021
+In recent years, I've grown especially excited about how deep learning can unlock new kinds of information-theoretic analyses of real world data.  "Information theory" can sound intimidating and dry, but I'm interested in juicy questions like:
+- *Where is the information in this room about whether my next coin toss will be heads or tails?*
+- *How does chaos destroy information?*
+- *What combination of diagnostics tell you the most about a hospital patient's outcome?*
 
-**University of Chicago**  PhD (Physics), 2013-2019
+With the methods I've been developing, you gain a powerful window into data while leaving deep learning as a black box, playing to its strengths while remaining blissfully unaware of its inner workings.  
 
-**UC Berkeley**  BA (Physics, computer science), 2009-2013
+If you'd like to chat, [please reach out](mailto:kieranm@seas.upenn.edu)!
 
+<hr> 
+
+A highly compressed view of my research trajectory:<br>
+**University of Pennsylvania**   Postdoc, 2021- <br>
+**Google Research**  AI Resident, 2019-2021 <br>
+**University of Chicago**  PhD (Physics), 2013-2019 <br>
+**UC Berkeley**  BA (Physics, computer science), 2009-2013 <br>
 **Lawrence Berkeley National Lab** Research assistant, 2012-2013
 
-<br>
-<br>
+<hr>
+
+Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
+
 <br>
 
 <div style="text-align: center">
@@ -84,7 +92,7 @@ function updateTextInput(val) {
   const b_std = 0.5;
   const num_units = 64;
   function draw() {tf.tidy(() => {
-    h = 400
+    h = 450
     var canvas = document.getElementById("canvas");
     canvas.width = h;
     canvas.height = h;
