@@ -47,7 +47,7 @@ A highly compressed view of my research trajectory:<br>
 
 <hr>
 
-Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
+I enjoy visualizing minimal examples of complex systems as a route to building intuition around how they work.  Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
 
 <br>
 
