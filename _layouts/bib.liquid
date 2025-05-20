@@ -74,7 +74,7 @@
       {% assign author_array_limit = author_array_size %}
       {% assign cofirst_count = entry.cofirst | default: 0 | plus: 0 %}
       {% assign colast_count = entry.colast | default: 0 | plus: 0 %}
-      {%- assign last_author_start_index = author_array_size | minus: co_last_count -%}
+      {%- assign last_author_start_index = author_array_size | minus: colast_count -%}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
