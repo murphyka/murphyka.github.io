@@ -73,6 +73,8 @@
 
       {% assign author_array_limit = author_array_size %}
       {% assign cofirst_count = entry.cofirst | default: 0 | plus: 0 %}
+      {% assign colast_count = entry.colast | default: 0 | plus: 0 %}
+      {%- assign last_author_start_index = author_array_size | minus: co_last_count -%}
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
@@ -82,6 +84,9 @@
         {%- assign mark_html = '' -%}
         {%- if author_index < cofirst_count -%}
           {%- assign mark_html = '<sup>*</sup>' -%}
+        {%- endif -%}
+        {%- if author_index >= last_author_start_index -%}
+          {%- assign mark_html = '<sup>†</sup>' -%}
         {%- endif -%}
         {% assign author_is_self = false %}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
