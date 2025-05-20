@@ -42,8 +42,9 @@ A highly compressed view of my research trajectory:<br>
 **University of Pennsylvania**   Postdoc, 2021- <br>
 **Google Research**  AI Resident, 2019-2021 <br>
 **University of Chicago**  PhD (Physics), 2013-2019 <br>
-**UC Berkeley**  BA (Physics, computer science), 2009-2013 <br>
-**Lawrence Berkeley National Lab** Research assistant, 2012-2013
+**Lawrence Berkeley National Lab** Research assistant, 2012-2013 <br>
+**UC Berkeley**  BA (Physics, computer science), 2009-2013
+
 
 <hr>
 
