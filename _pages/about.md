@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em>Visualizing the structure of information with machine learning.</em>
+subtitle: <em>Shaping the structure of information with machine learning.</em>
 
 profile:
   align: right
@@ -23,18 +23,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome to my site!  **I'm excited to share that I am now an Assistant Professor in Computer Science at NJIT!**
+Hello and welcome to my site!  
 
-My research has evolved from physics toward machine learning and information theory over the years, always taking an experimental approach toward understanding complex systems. 
+**I am an Assistant Professor in Computer Science at NJIT.**
 
-In recent years, I've grown especially excited about how deep learning can unlock new kinds of information-theoretic analyses of real world data.  "Information theory" can sound intimidating and dry, but I'm interested in juicy questions like:
-- *Where is the information in this room about whether my next coin toss will be heads or tails?*
-- *How does chaos destroy information?*
-- *What combination of diagnostics tell you the most about a hospital patient's outcome?*
+My research focuses on *designing information processing systems around lossy compression*.
+I use representation learning as a foundation and information theory as a guide, building algorithms that distill high-dimensional data into reduced descriptions.
 
-With the methods I've been developing, you gain a powerful window into data while leaving deep learning as a black box, playing to its strengths while remaining blissfully unaware of its inner workings.  
+This design-first perspective bridges machine learning and complex systems: by engineering tools that compress data in principled ways, I aim both to build new interpretability into AI and to uncover organizing principles in fields ranging from biology to physics.
 
-If you'd like to chat, [please reach out](mailto:kieran.murphy@njit.edu)!
+If any of this resonates, [please reach out](mailto:kieran.murphy@njit.edu)!
 
 <hr> 
 
