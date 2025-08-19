@@ -23,7 +23,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome to my site!  
+Hello and welcome to my site!  **I'm excited to share that I am now an Assistant Professor in Computer Science at NJIT!**
 
 My research has evolved from physics toward machine learning and information theory over the years, always taking an experimental approach toward understanding complex systems. 
 
@@ -34,12 +34,13 @@ In recent years, I've grown especially excited about how deep learning can unloc
 
 With the methods I've been developing, you gain a powerful window into data while leaving deep learning as a black box, playing to its strengths while remaining blissfully unaware of its inner workings.  
 
-If you'd like to chat, [please reach out](mailto:kieranm@seas.upenn.edu)!
+If you'd like to chat, [please reach out](mailto:kieran.murphy@njit.edu)!
 
 <hr> 
 
 A highly compressed view of my research trajectory:<br>
-**University of Pennsylvania**   Postdoc, 2021- <br>
+**New Jersey Institute of Technology**  Assistant Professor, 2025- <br>
+**University of Pennsylvania**   Postdoc, 2021-2025 <br>
 **Google Research**  AI Resident, 2019-2021 <br>
 **University of Chicago**  PhD (Physics), 2013-2019 <br>
 **Lawrence Berkeley National Lab** Research assistant, 2012-2013 <br>
