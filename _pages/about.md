@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <em>Shaping the structure of information with machine learning.</em>
+subtitle: <em>Shaping information with machine learning.</em>
 
 profile:
   align: right
