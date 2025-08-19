@@ -25,7 +25,7 @@ latest_posts:
 
 Hello and welcome to my site!  
 
-**I am an Assistant Professor in Computer Science at NJIT.**
+**I am now an Assistant Professor in Computer Science at NJIT.**
 
 My research focuses on *designing information processing systems around lossy compression*.
 I use representation learning as a foundation and information theory as a guide, building algorithms that distill high-dimensional data into reduced descriptions.
