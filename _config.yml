@@ -197,7 +197,6 @@ exclude:
   - _pages/repositories.md
   - _posts/
   - _projects/
-  - _pages/teaching.md
   - _pages/projects.md
   - _pages/profiles.md
   - _includes/latest_posts.liquid
