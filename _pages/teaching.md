@@ -37,4 +37,4 @@ Visualization is a central theme throughout the course, both as a practical tool
 
 <br>
 
-The full syllabus can be found [here](/assets/pdf/CS485_698_Explainable_AI_syllabus.pdf).  Slides to follow!
+The syllabus can be found [here](/assets/pdf/CS485_698_Explainable_AI_syllabus.pdf).
