@@ -8,7 +8,6 @@ nav_order: 6
 ---
 
 ## Fall 2025: Explainable AI (CS 485/698)
-\* *Course of my own design*
 
 This course introduces technical methods for making machine learning models more transparent and understandable. 
 Topics include intrinsically interpretable models, post hoc explanations (e.g., Shapley values, saliency maps), visualization of model internals (e.g., attention maps, neuron activations), 
