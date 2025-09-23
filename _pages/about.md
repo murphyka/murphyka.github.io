@@ -7,7 +7,8 @@ subtitle: <em>Shaping information with machine learning.</em>
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
+  position: inline
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -23,18 +24,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome to my site!  
+Hello and welcome!  
 
-**I am now an Assistant Professor in Computer Science at NJIT.**
+**We are a research group focused on designing information processing systems around lossy compression.**
+We study the fundamentals of representation learning and information theory, and build algorithms that distill high-dimensional data into reduced descriptions.
 
-My research focuses on *designing information processing systems around lossy compression*.
-I use representation learning as a foundation and information theory as a guide, building algorithms that distill high-dimensional data into reduced descriptions.
+**If you're curious about how to design and understand AI systems, consider joining!** 
+[Please reach out](mailto:kieran.murphy@njit.edu).
 
-This design-first perspective bridges machine learning and complex systems: by engineering tools that compress data in principled ways, I aim both to build new interpretability into AI and to uncover organizing principles in fields ranging from biology to physics.
+<br>
+<hr>
+<br>
 
-If any of this resonates, [please reach out](mailto:kieran.murphy@njit.edu)!
+{% include profile_block.liquid %}
 
-<hr> 
+**About me:** I am now an assistant professor in the computer science department at NJIT!
 
 A highly compressed view of my research trajectory:<br>
 **New Jersey Institute of Technology**  Assistant Professor, 2025- <br>
@@ -45,7 +49,9 @@ A highly compressed view of my research trajectory:<br>
 **UC Berkeley**  BA (Physics, computer science), 2009-2013
 
 
+<br>
 <hr>
+<br>
 
 I enjoy visualizing minimal examples of complex systems as a route to building intuition around how they work.  Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
 
