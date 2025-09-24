@@ -33,6 +33,7 @@ horizontal: true
 <div class="projects">
 
 ## How do transformers process information?
+
 <div class="project">
 <figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:350px;" >
   <img src="/assets/img/vit.png" alt="Vision transformer schematic from Dosovitskiy et al. 2021" width="350" loading="lazy">
@@ -54,6 +55,7 @@ This project builds upon several recent publications that use the distributed in
 ---
 
 ## Probabilistic representation learning: engineering how information is stored in latent spaces
+
 <div class="project">
 
 <img src="/assets/img/rand_net.png" alt="abstract neural network visualization" width="250" loading="lazy" style="float:left; margin-right: 20px; margin-bottom: 10px;">
@@ -70,6 +72,7 @@ It turns out that both become easier if you force representations to be probabil
 ---
 
 ## Information games
+
 <div class="project">
 
 <figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:200px;">
