@@ -29,8 +29,8 @@ Hello and welcome!
 **We are a research group focused on designing information processing systems around lossy compression.**
 We study the fundamentals of representation learning and information theory, and build algorithms that distill high-dimensional data into reduced descriptions.
 
-**If you're curious about how to design and understand AI systems, consider joining!** 
-[Please reach out](mailto:kieran.murphy@njit.edu).
+**If you're curious about how to design and understand AI systems, consider joining!** Openings for students at all levels,
+[please reach out](mailto:kieran.murphy@njit.edu).
 
 <br>
 <hr>
@@ -53,7 +53,7 @@ A highly compressed view of my research trajectory:<br>
 <hr>
 <br>
 
-I enjoy visualizing minimal examples of complex systems as a route to building intuition around how they work.  Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
+Visualization can be a powerful route to building intuition around how complex systems work.  Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
 
 <br>
 
