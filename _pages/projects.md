@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Here are some ongoing research directions of the group.  Openings for curious students at all levels!
 nav: true
@@ -28,13 +28,18 @@ horizontal: true
 @media (max-width: 700px) {
   .projects figure { float: none; width: 100%; margin: 0 0 10px 0; }
 }
+
+.projects a:hover {
+  text-decoration: underline;
+}
+
 </style>
 
-<div class="projects">
+<div class="projects" markdown="1">
 
 ## How do transformers process information?
 
-<div class="project">
+<div class="project" markdown="1">
 <figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:350px;" >
   <img src="/assets/img/vit.png" alt="Vision transformer schematic from Dosovitskiy et al. 2021" width="350" loading="lazy">
   <figcaption style="font-size:0.9em; color:#555;">
@@ -56,7 +61,7 @@ This project builds upon several recent publications that use the distributed in
 
 ## Probabilistic representation learning: engineering how information is stored in latent spaces
 
-<div class="project">
+<div class="project" markdown="1">
 
 <img src="/assets/img/rand_net.png" alt="abstract neural network visualization" width="250" loading="lazy" style="float:left; margin-right: 20px; margin-bottom: 10px;">
 
@@ -73,7 +78,7 @@ It turns out that both become easier if you force representations to be probabil
 
 ## Information games
 
-<div class="project">
+<div class="project" markdown="1">
 
 <figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:200px;">
   <img src="/assets/img/pawn_chess.png" alt="artist rendition of information games" loading="lazy" width="200">
@@ -82,6 +87,7 @@ It turns out that both become easier if you force representations to be probabil
 <br>
 
 What happens in multi-agent scenarios when information is not a means to some other end, but rather the ultimate objective itself?
+
 Do effective strategies for deceit and for efficient sensing arise naturally?
 
 Using tools we've developed to characterize the nature of distributed information, we are studying how agents acquire information and deceive their opponents.
