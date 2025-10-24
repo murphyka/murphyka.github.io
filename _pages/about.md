@@ -38,7 +38,7 @@ We study the fundamentals of representation learning and information theory, and
 
 {% include profile_block.liquid %}
 
-**About me:** I am now an assistant professor in the computer science department at NJIT!
+**About me:** I am now an assistant professor at NJIT.  My primary appointment is in the [computer science department](https://cs.njit.edu/), and I have a joint appointment in the [data science department](https://ds.njit.edu/).
 
 A highly compressed view of my research trajectory:<br>
 **New Jersey Institute of Technology**  Assistant Professor, 2025- <br>
