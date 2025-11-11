@@ -7,6 +7,12 @@ nav: true
 nav_order: 6
 ---
 
+## Spring 2026: Explainable AI (CS 785)
+
+The PhD version of Explainable AI will follow the same trajectory as what is listed below for CS485/698.  There will be deeper engagement with the math and the research articles behind the methods we cover.
+
+The syllabus can be found [here](/assets/pdf/CS785_SPR2026_syllabus.pdf).
+
 ## Fall 2025: Explainable AI (CS 485/698)
 
 This course introduces technical methods for making machine learning models more transparent and understandable. 
@@ -37,3 +43,5 @@ Visualization is a central theme throughout the course, both as a practical tool
 <br>
 
 The syllabus can be found [here](/assets/pdf/CS485_698_Explainable_AI_syllabus.pdf).
+
+
