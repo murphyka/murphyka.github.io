@@ -41,14 +41,17 @@ horizontal: true
 
 <div class="project" markdown="1">
 <figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:350px;" >
-  <img src="/assets/img/vit.png" alt="Vision transformer schematic from Dosovitskiy et al. 2021" width="350" loading="lazy">
+  <img src="/assets/img/publication_preview/schematic_vit_ib.png" alt="Vision transformer schematic with information bottlenecks before writes to the residual stream" width="350" loading="lazy">
   <figcaption style="font-size:0.9em; color:#555;">
-    Schematic from the original Vision Transformer paper, <a href="https://arxiv.org/abs/2010.11929" target="_blank" rel="noopener">Dosovitskiy et al. (2021)</a>.
+    A modified vision transformer where attention heads pass through information bottlenecks before writing to the residual stream.
   </figcaption>
 </figure>
 
 Transformers aggregate information from many pieces -- language fragments, image patches, temporal intervals, etc. -- into a global representation of the whole.
 In this project, we restrict the flow of information between pieces as they are processed by a transformer, and gain an entirely new perspective on the way transformers build up from local to global.
+
+**Research highlights:**
+- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026.
 
 This project builds upon several recent publications that use the distributed information bottleneck to restrict and monitor information in composite systems:
 - [*Surveying the Space of Descriptions of a Composite System with Machine Learning,*](https://journals.aps.org/prl/abstract/10.1103/gxrh-2xsv) Physical Review Letters 2025.
