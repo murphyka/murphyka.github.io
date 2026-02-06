@@ -40,7 +40,7 @@ horizontal: true
 ## How do transformers process information?
 
 <div class="project" markdown="1">
-<figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:350px;" >
+<figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:250px;" >
   <img src="/assets/img/publication_preview/schematic_vit_ib.png" alt="Vision transformer schematic with information bottlenecks before writes to the residual stream" width="350" loading="lazy">
   <figcaption style="font-size:0.9em; color:#555;">
     A modified vision transformer where attention heads pass through information bottlenecks before writing to the residual stream.
