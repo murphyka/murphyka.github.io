@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS 785 — Feature Visualization Vote</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, serif;
+      background: #111;
+      color: #ddd;
+      padding: 2rem;
+    }
+
+    header {
+      max-width: 860px;
+      margin: 0 auto 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: normal;
+      letter-spacing: 0.04em;
+      margin-bottom: 0.75rem;
+      color: #fff;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #aaa;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .cell {
+      position: relative;
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+      background: #222;
+      cursor: default;
+    }
+
+    .cell img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: opacity 0.25s ease;
+    }
+
+    .cell .label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+      font-size: 3.5rem;
+      font-weight: bold;
+      color: #fff;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      pointer-events: none;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.8);
+    }
+
+    .cell:hover img    { opacity: 0.08; }
+    .cell:hover .label { opacity: 1; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CS 785 &mdash; Explainable AI &nbsp;|&nbsp; Feature Visualization Assignment</h1>
+    <p>
+      Below are the anonymized submissions. Hover over any image to reveal its index number.
+      Cast your vote for the submission you think best visualizes the target feature.
+    </p>
+  </header>
+
+  <div class="grid">
+    <div class="cell"><img src="images_anon/1.png"  alt="Submission 1" ><span class="label">1</span></div>
+    <div class="cell"><img src="images_anon/2.png"  alt="Submission 2" ><span class="label">2</span></div>
+    <div class="cell"><img src="images_anon/3.png"  alt="Submission 3" ><span class="label">3</span></div>
+    <div class="cell"><img src="images_anon/4.png"  alt="Submission 4" ><span class="label">4</span></div>
+    <div class="cell"><img src="images_anon/5.png"  alt="Submission 5" ><span class="label">5</span></div>
+    <div class="cell"><img src="images_anon/6.png"  alt="Submission 6" ><span class="label">6</span></div>
+    <div class="cell"><img src="images_anon/7.png"  alt="Submission 7" ><span class="label">7</span></div>
+    <div class="cell"><img src="images_anon/8.png"  alt="Submission 8" ><span class="label">8</span></div>
+    <div class="cell"><img src="images_anon/9.png"  alt="Submission 9" ><span class="label">9</span></div>
+    <div class="cell"><img src="images_anon/10.png" alt="Submission 10"><span class="label">10</span></div>
+    <div class="cell"><img src="images_anon/11.png" alt="Submission 11"><span class="label">11</span></div>
+    <div class="cell"><img src="images_anon/12.png" alt="Submission 12"><span class="label">12</span></div>
+    <div class="cell"><img src="images_anon/13.png" alt="Submission 13"><span class="label">13</span></div>
+    <div class="cell"><img src="images_anon/14.png" alt="Submission 14"><span class="label">14</span></div>
+    <div class="cell"><img src="images_anon/15.png" alt="Submission 15"><span class="label">15</span></div>
+    <div class="cell"><img src="images_anon/16.png" alt="Submission 16"><span class="label">16</span></div>
+    <div class="cell"><img src="images_anon/17.png" alt="Submission 17"><span class="label">17</span></div>
+    <div class="cell"><img src="images_anon/18.png" alt="Submission 18"><span class="label">18</span></div>
+    <div class="cell"><img src="images_anon/19.png" alt="Submission 19"><span class="label">19</span></div>
+    <div class="cell"><img src="images_anon/20.png" alt="Submission 20"><span class="label">20</span></div>
+    <div class="cell"><img src="images_anon/21.png" alt="Submission 21"><span class="label">21</span></div>
+    <div class="cell"><img src="images_anon/22.png" alt="Submission 22"><span class="label">22</span></div>
+    <div class="cell"><img src="images_anon/23.png" alt="Submission 23"><span class="label">23</span></div>
+    <div class="cell"><img src="images_anon/24.png" alt="Submission 24"><span class="label">24</span></div>
+    <div class="cell"><img src="images_anon/25.png" alt="Submission 25"><span class="label">25</span></div>
+    <div class="cell"><img src="images_anon/26.png" alt="Submission 26"><span class="label">26</span></div>
+    <div class="cell"><img src="images_anon/27.png" alt="Submission 27"><span class="label">27</span></div>
+    <div class="cell"><img src="images_anon/28.png" alt="Submission 28"><span class="label">28</span></div>
+    <div class="cell"><img src="images_anon/29.png" alt="Submission 29"><span class="label">29</span></div>
+    <div class="cell"><img src="images_anon/30.png" alt="Submission 30"><span class="label">30</span></div>
+    <div class="cell"><img src="images_anon/31.png" alt="Submission 31"><span class="label">31</span></div>
+    <div class="cell"><img src="images_anon/32.png" alt="Submission 32"><span class="label">32</span></div>
+    <div class="cell"><img src="images_anon/33.png" alt="Submission 33"><span class="label">33</span></div>
+    <div class="cell"><img src="images_anon/34.png" alt="Submission 34"><span class="label">34</span></div>
+    <div class="cell"><img src="images_anon/35.png" alt="Submission 35"><span class="label">35</span></div>
+  </div>
+
+</body>
+</html>
