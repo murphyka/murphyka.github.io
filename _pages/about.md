@@ -29,8 +29,8 @@ Hello and welcome!
 **We are a research group focused on designing information processing systems around lossy compression.**
 We study the fundamentals of representation learning and information theory, and build algorithms that distill high-dimensional data into reduced descriptions.
 
-**If you're curious about how to design and understand AI systems, consider joining!** Openings for students at all levels,
-[please reach out](mailto:kieran.murphy@njit.edu).
+**If you're curious about how to design and understand AI systems, consider joining!** 
+[Please reach out](mailto:kieran.murphy@njit.edu).
 
 <br>
 <hr>
