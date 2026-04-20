@@ -95,6 +95,11 @@ Do effective strategies for deceit and for efficient sensing arise naturally?
 
 Using tools we've developed to characterize the nature of distributed information, we are studying how agents acquire information and deceive their opponents.
 
+**Research highlights:**
+- [*InfoChess: A Game of Adversarial Inference and a Laboratory for
+  Quantifiable Information Control,*](https://arxiv.org/abs/2604.15373) Accepted at Adaptive and Learning Agents Workshop, AAMAS 2026.
+
+
 </div>
 
 </div>
