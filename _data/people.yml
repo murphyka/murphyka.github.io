@@ -1,0 +1,25 @@
+phd_students:
+  - name: Shameen Shrestha
+    image: prof_pic.jpg
+    bio:  
+  - name: Huu Phuoc Dang
+    image: prof_pic.jpg
+    bio:   
+
+undergraduates:
+  - name: Emmanuel Cruzat
+    image: prof_pic.jpg
+    bio:
+  - name: Ray Sama
+    image: prof_pic.jpg
+    bio:
+  - name: Andrew Lezaja
+    image: prof_pic.jpg
+    bio:
+  - name: Nintsi (Nino) Chkhaidze
+    image: prof_pic.jpg
+    bio:
+
+# alumni:
+#   - name: Alumni Name
+#     note: # e.g. "Now at Google"

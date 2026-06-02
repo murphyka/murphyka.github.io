@@ -36,23 +36,6 @@ We study the fundamentals of representation learning and information theory, and
 <hr>
 <br>
 
-{% include profile_block.liquid %}
-
-**About me:** I am now an assistant professor at NJIT.  My primary appointment is in the [computer science department](https://cs.njit.edu/), and I have a joint appointment in the [data science department](https://ds.njit.edu/).
-
-A highly compressed view of my research trajectory:<br>
-**New Jersey Institute of Technology**  Assistant Professor, 2025- <br>
-**University of Pennsylvania**   Postdoc, 2021-2025 <br>
-**Google Research**  AI Resident, 2019-2021 <br>
-**University of Chicago**  PhD (Physics), 2013-2019 <br>
-**Lawrence Berkeley National Lab** Research assistant, 2012-2013 <br>
-**UC Berkeley**  BA (Physics, computer science), 2009-2013
-
-
-<br>
-<hr>
-<br>
-
 Visualization can be a powerful route to building intuition around how complex systems work.  Below is a visualization of a randomly initialized neural network that warps two-dimensional space.  The input starts as a square and then what you're seeing is the square after passing through the network.  Try varying the number of layers (64 units each) and the activation function!
 
 <br>
