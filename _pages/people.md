@@ -96,7 +96,7 @@ nav_order: 3
     {% else %}
       <div class="person-placeholder">&#128100;</div>
     {% endif %}
-    <span class="person-name">{{ person.name }}</span>
+    <span class="person-name">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
     {% if person.bio %}<span class="person-bio">{{ person.bio }}</span>{% endif %}
   </div>
 {% endfor %}
@@ -114,7 +114,7 @@ nav_order: 3
     {% else %}
       <div class="person-placeholder">&#128100;</div>
     {% endif %}
-    <span class="person-name">{{ person.name }}</span>
+    <span class="person-name">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
     {% if person.bio %}<span class="person-bio">{{ person.bio }}</span>{% endif %}
   </div>
 {% endfor %}

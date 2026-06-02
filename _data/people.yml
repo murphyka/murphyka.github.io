@@ -1,23 +1,24 @@
 phd_students:
   - name: Shameen Shrestha
-    image: prof_pic.jpg
+    image: 
     bio:  
   - name: Huu Phuoc Dang
-    image: prof_pic.jpg
+    image: 
     bio:   
 
 undergraduates:
   - name: Emmanuel Cruzat
-    image: prof_pic.jpg
+    image: people/emmanuel.jpg
     bio:
+    url: https://emmanuelcruzat.github.io/portfolio-dva/
   - name: Ray Sama
-    image: prof_pic.jpg
+    image: 
     bio:
   - name: Andrew Lezaja
-    image: prof_pic.jpg
+    image: 
     bio:
   - name: Nintsi (Nino) Chkhaidze
-    image: prof_pic.jpg
+    image:
     bio:
 
 # alumni:
