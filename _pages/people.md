@@ -43,6 +43,10 @@ nav_order: 3
   color: #666;
   margin-top: 0.2rem;
 }
+.person-card .person-links {
+  font-size: 0.78rem;
+  margin-top: 0.2rem;
+}
 .alumni-list {
   list-style: none;
   padding: 0;
@@ -92,7 +96,8 @@ nav_order: 3
     {% else %}
       <canvas class="person-placeholder nn-placeholder" width="120" height="120"></canvas>
     {% endif %}
-    <span class="person-name">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
+    <span class="person-name">{{ person.name }}</span>
+    {% if person.links %}<span class="person-links">{% for link in person.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
     {% if person.bio %}<span class="person-bio">{{ person.bio }}</span>{% endif %}
   </div>
 {% endfor %}
@@ -110,7 +115,8 @@ nav_order: 3
     {% else %}
       <canvas class="person-placeholder nn-placeholder" width="120" height="120"></canvas>
     {% endif %}
-    <span class="person-name">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
+    <span class="person-name">{{ person.name }}</span>
+    {% if person.links %}<span class="person-links">{% for link in person.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</span>{% endif %}
     {% if person.bio %}<span class="person-bio">{{ person.bio }}</span>{% endif %}
   </div>
 {% endfor %}

@@ -56,7 +56,7 @@ function drawNN(canvasEl, { size = 120, numLayers = 2, actFn = 'tanh', dots = fa
 
       v_out.array().then(arr => {
         if (dots) {
-          const r = size / 180;
+          const r = size / 360;
           ctx.fillStyle = ctx.strokeStyle;
           for (let i = 0; i < N; i++) {
             for (let j = 0; j < N; j++) {

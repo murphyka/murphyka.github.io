@@ -10,7 +10,11 @@ undergraduates:
   - name: Emmanuel Cruzat
     image: people/emmanuel.jpg
     bio:
-    url: https://emmanuelcruzat.github.io/portfolio-dva/
+    links:
+      - url: https://emmanuelcruzat.github.io/portfolio-dva/
+        label: website
+      - url: https://www.linkedin.com/in/emmanuel-cruzat/
+        label: linkedin  
   - name: Ray Sama
     image: 
     bio:
