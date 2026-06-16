@@ -30,12 +30,8 @@ nav_order: 3
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #e0e0e0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 2.5rem;
-  color: #999;
+  overflow: hidden;
+  cursor: pointer;
 }
 .person-card .person-name {
   margin-top: 0.6rem;
@@ -94,7 +90,7 @@ nav_order: 3
     {% if person.image %}
       <img src="/assets/img/{{ person.image }}" alt="{{ person.name }}" class="z-depth-1">
     {% else %}
-      <div class="person-placeholder">&#128100;</div>
+      <canvas class="person-placeholder nn-placeholder" width="120" height="120"></canvas>
     {% endif %}
     <span class="person-name">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
     {% if person.bio %}<span class="person-bio">{{ person.bio }}</span>{% endif %}
@@ -112,7 +108,7 @@ nav_order: 3
     {% if person.image %}
       <img src="/assets/img/{{ person.image }}" alt="{{ person.name }}" class="z-depth-1">
     {% else %}
-      <div class="person-placeholder">&#128100;</div>
+      <canvas class="person-placeholder nn-placeholder" width="120" height="120"></canvas>
     {% endif %}
     <span class="person-name">{% if person.url %}<a href="{{ person.url }}">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
     {% if person.bio %}<span class="person-bio">{{ person.bio }}</span>{% endif %}
@@ -132,3 +128,18 @@ nav_order: 3
   </li>
 {% endfor %}
 </ul>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+<script src="/assets/js/km/random_network_visualizer.js"></script>
+<script>
+  function initPlaceholders() {
+    document.querySelectorAll('canvas.nn-placeholder').forEach(function(canvas) {
+      drawNN(canvas, { size: 120 });
+      canvas.addEventListener('click', function() {
+        drawNN(canvas, { size: 120 });
+      });
+    });
+  }
+  document.addEventListener('DOMContentLoaded', initPlaceholders);
+  document.addEventListener('themeChanged', initPlaceholders);
+</script>
