@@ -3,7 +3,8 @@
 // options.size: pixel dimensions (square)
 // options.numLayers: number of hidden layers
 // options.actFn: TF.js activation name
-function drawNN(canvasEl, { size = 120, numLayers = 2, actFn = 'tanh' } = {}) {
+// options.dots: if true, render points instead of lines
+function drawNN(canvasEl, { size = 120, numLayers = 2, actFn = 'tanh', dots = false } = {}) {
   if (typeof tf === 'undefined') return;
 
   const N = size >= 300 ? 120 : 60;
@@ -54,13 +55,25 @@ function drawNN(canvasEl, { size = 120, numLayers = 2, actFn = 'tanh' } = {}) {
       ctx.strokeStyle = isDark ? '#ffffff' : '#000000';
 
       v_out.array().then(arr => {
-        for (let i = 0; i < N; i++) {
-          const path = new Path2D();
-          path.moveTo(size * arr[i][0][0], size * arr[i][0][1]);
-          for (let j = 0; j < N; j++) {
-            path.lineTo(size * arr[i][j][0], size * arr[i][j][1]);
+        if (dots) {
+          const r = size / 180;
+          ctx.fillStyle = ctx.strokeStyle;
+          for (let i = 0; i < N; i++) {
+            for (let j = 0; j < N; j++) {
+              ctx.beginPath();
+              ctx.arc(size * arr[i][j][0], size * arr[i][j][1], r, 0, 2 * Math.PI);
+              ctx.fill();
+            }
           }
-          ctx.stroke(path);
+        } else {
+          for (let i = 0; i < N; i++) {
+            const path = new Path2D();
+            path.moveTo(size * arr[i][0][0], size * arr[i][0][1]);
+            for (let j = 0; j < N; j++) {
+              path.lineTo(size * arr[i][j][0], size * arr[i][j][1]);
+            }
+            ctx.stroke(path);
+          }
         }
       });
     }
