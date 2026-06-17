@@ -140,9 +140,9 @@ nav_order: 3
 <script>
   function initPlaceholders() {
     document.querySelectorAll('canvas.nn-placeholder').forEach(function(canvas) {
-      drawNN(canvas, { size: 120, dots: true });
+      drawNN(canvas, { size: 120, numLayers: 4, dots: true });
       canvas.addEventListener('click', function() {
-        drawNN(canvas, { size: 120, dots: true });
+        drawNN(canvas, { size: 120, numLayers: 4, dots: true });
       });
     });
   }

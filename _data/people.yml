@@ -20,8 +20,11 @@ undergraduates:
       - url: https://www.linkedin.com/in/emmanuel-cruzat/
         label: linkedin  
   - name: Ray Sama
-    image: 
+    image: people/ray.jpg
     bio:
+    links:
+      - url: http://www.linkedin.com/in/raysama
+        label: linkedin
   - name: Andrew Lezaja
     image: 
     bio:
