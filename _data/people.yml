@@ -3,8 +3,15 @@ phd_students:
     image: 
     bio:  
   - name: Huu Phuoc Dang
-    image: 
+    image: people/phuoc.jpg
     bio:   
+    links:
+      - url: http://iphuocdang.com/
+        label: website
+      - url: http://www.linkedin.com/in/phuocdang07
+        label: linkedin
+      - url: https://scholar.google.com/citations?user=3v5mJX0AAAAJ
+        label: google scholar
   - name: Md Al Siam
     image: people/siam.jpeg
     links:
