@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Here are some ongoing research directions of the group.  Openings for curious students at all levels!
+description: Here are some ongoing research directions of the group.  Openings for curious students at the undergraduate and graduate levels!
 nav: true
 nav_order: 2
 display_categories: 
@@ -51,7 +51,7 @@ Transformers aggregate information from many pieces -- language fragments, image
 In this project, we restrict the flow of information between pieces as they are processed by a transformer, and gain an entirely new perspective on the way transformers build up from local to global.
 
 **Research highlights:**
-- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026.
+- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026, [ICML 2026 workshop on Mechanistic Interpretability](https://openreview.net/forum?id=nJmy7iULF7).
 
 This project builds upon several recent publications that use the distributed information bottleneck to restrict and monitor information in composite systems:
 - [*Surveying the Space of Descriptions of a Composite System with Machine Learning,*](https://journals.aps.org/prl/abstract/10.1103/gxrh-2xsv) Physical Review Letters 2025.
@@ -97,7 +97,7 @@ Using tools we've developed to characterize the nature of distributed informatio
 
 **Research highlights:**
 - [*InfoChess: A Game of Adversarial Inference and a Laboratory for
-  Quantifiable Information Control,*](https://arxiv.org/abs/2604.15373) Accepted at Adaptive and Learning Agents Workshop, AAMAS 2026.
+  Quantifiable Information Control,*](https://arxiv.org/abs/2604.15373) Adaptive and Learning Agents Workshop, AAMAS 2026.
 
 
 </div>
