@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-projects",
           title: "Projects",
-          description: "Here are some ongoing research directions of the group.  Openings for curious students at all levels!",
+          description: "Here are some ongoing research directions of the group.  Openings for curious students at the undergraduate and graduate levels!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
