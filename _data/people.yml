@@ -22,7 +22,7 @@ undergraduates:
     image: people/emmanuel.jpg
     bio:
     links:
-      - url: https://emmanuelcruzat.github.io/portfolio-dva/
+      - url: https://emmanuelcruzat.github.io/portfolio-3.x/
         label: website
       - url: https://www.linkedin.com/in/emmanuel-cruzat/
         label: linkedin  
