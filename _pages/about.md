@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <em>Shaping information with machine learning.</em>
+subtitle: <em>Information-processing empiricism</em>
 
 profile:
   align: right
@@ -26,8 +26,8 @@ latest_posts:
 
 Hello and welcome!  
 
-**We are a research group focused on designing information processing systems around lossy compression.**
-We study the fundamentals of representation learning and information theory, and build algorithms that distill high-dimensional data into reduced descriptions.
+**We are a research group that designs and studies information processing systems using tools from information theory.**
+We study representation learning in deep neural networks, and build algorithms that distill high-dimensional data into reduced descriptions for the express purpose of interpretability.
 
 **If you're curious about how to design and understand AI systems, consider joining!** 
 [Please reach out](mailto:kieran.murphy@njit.edu).
