@@ -7,6 +7,12 @@ nav: true
 nav_order: 6
 ---
 
+## Fall 2026: Intro to machine learning (CS 375 H)
+
+How to find a good mapping: a journey from the dataset mean to nanoGPT.  
+
+The syllabus can be found [here](/assets/pdf/CS375H_Fall_2026_syllabus.pdf)
+
 ## Spring 2026: Explainable AI (CS 785)
 
 The PhD version of Explainable AI will follow the same trajectory as what is listed below for CS485/698.  There will be deeper engagement with the math and the research articles behind the methods we cover.
