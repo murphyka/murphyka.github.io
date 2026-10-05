@@ -46,6 +46,7 @@ horizontal: true
     An easy modification to pre-trained transformers: add isotropic noise inside the normalization operation and then fine-tune for rate-limited information processing.
   </figcaption>
 </figure>
+</div>
 
 Transformers aggregate information from many pieces -- language fragments, image patches, temporal intervals, etc. -- into a global representation of the whole.
 Most commonly, they operate on point-based representations and no limitation on the amount of information passing through each latent space. 
@@ -101,7 +102,5 @@ It turns out that both become easier if you force representations to be probabil
 
 **Research highlights:**
 - [*Comparing the information content of probabilistic representation spaces,*](https://openreview.net/forum?id=adhsMqURI1) TMLR 2025.
-
-</div>
 
 </div>
