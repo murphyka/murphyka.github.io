@@ -56,16 +56,18 @@ In this project, we convert specific junctures in the transformer into probabili
 One point-based processing path from input to output then becomes an information flow, with volume and mistakes and rates contributed by each chokepoint.
 We're particularly interested in light-touch modifications to pre-trained models -- see our recent stochastic normalization work below -- and then in applying methods from mechanistic interpretability for a new perspective on previously identified circuitry. 
 
-**Research highlights:**
-- [*Tracing distinguishability through transformer processing with stochastic LayerNorm,*](https://arxiv.org//abs/2608.30720) arXiv 2026.
-- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026, [ICML 2026 workshop on Mechanistic Interpretability](https://openreview.net/forum?id=nJmy7iULF7).
-
 <figure style="float:left; margin-right: 20px; margin-bottom: 10px; text-align:center; width:250px;" >
   <img src="/assets/img/publication_preview/schematic_vit_ib.png" alt="Vision transformer schematic with information bottlenecks before writes to the residual stream" width="350" loading="lazy">
   <figcaption style="font-size:0.9em; color:#555;">
     A modified vision transformer where attention heads pass through information bottlenecks before writing to the residual stream.
   </figcaption>
 </figure>
+
+
+**Research highlights:**
+- [*Tracing distinguishability through transformer processing with stochastic LayerNorm,*](https://arxiv.org//abs/2608.30720) arXiv 2026.
+- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026, [ICML 2026 workshop on Mechanistic Interpretability](https://openreview.net/forum?id=nJmy7iULF7).
+
 
 </div>
 
