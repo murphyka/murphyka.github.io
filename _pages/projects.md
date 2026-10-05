@@ -37,26 +37,53 @@ horizontal: true
 
 <div class="projects" markdown="1">
 
-## How do transformers process information?
+## Information flows and mechanistic interpretability
 
 <div class="project" markdown="1">
 <figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:250px;" >
+  <img src="/assets/img/publication_preview/stoch_norm.png" alt="Stochastic residual stream reads for measurable information flows" width="350" loading="lazy">
+  <figcaption style="font-size:0.9em; color:#555;">
+    An easy modification to pre-trained transformers: add isotropic noise inside the normalization operation and then fine-tune for rate-limited information processing.
+  </figcaption>
+</figure>
+
+Transformers aggregate information from many pieces -- language fragments, image patches, temporal intervals, etc. -- into a global representation of the whole.
+Most commonly, they operate on point-based representations and no limitation on the amount of information passing through each latent space. 
+**What if we want to know what information is processed by each component?** 
+
+We convert specific junctures in the transformer into probabilistic representation spaces and restrict the flow of information.
+One point-based processing path from input to output then becomes an information flow, with volume and mistakes and rates contributed by different components.
+We're particularly interested in light-touch modifications to pre-trained models -- see our recent stochastic normalization work below -- and then in applying methods from mechanistic interpretability to characterize the flows. 
+
+**Research highlights:**
+- [*Tracing distinguishability through transformer processing with stochastic LayerNorm,*](https://arxiv.org//abs/2608.30720) arXiv 2026.
+- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026, [ICML 2026 workshop on Mechanistic Interpretability](https://openreview.net/forum?id=nJmy7iULF7).
+
+<div class="project" markdown="1">
+<figure style="float:left; margin-right: 20px; margin-bottom: 10px; text-align:center; width:250px;" >
   <img src="/assets/img/publication_preview/schematic_vit_ib.png" alt="Vision transformer schematic with information bottlenecks before writes to the residual stream" width="350" loading="lazy">
   <figcaption style="font-size:0.9em; color:#555;">
     A modified vision transformer where attention heads pass through information bottlenecks before writing to the residual stream.
   </figcaption>
 </figure>
 
-Transformers aggregate information from many pieces -- language fragments, image patches, temporal intervals, etc. -- into a global representation of the whole.
-In this project, we restrict the flow of information between pieces as they are processed by a transformer, and gain an entirely new perspective on the way transformers build up from local to global.
+</div>
+
+---
+
+## Information decomposition to reveal structure in data
+
+<div class="project" markdown="1">
+
+<img src="/assets/img/publication_preview/reveal_ig.gif" alt="pixel attribution for resnet in swimming koi video" width="250" loading="lazy" style="float:right; margin-right: 20px; margin-bottom: 10px;">
 
 **Research highlights:**
-- [*From independent patches to coordinated attention: Controlling information flow in vision transformers,*](https://arxiv.org/abs/2602.04784) arXiv 2026, [ICML 2026 workshop on Mechanistic Interpretability](https://openreview.net/forum?id=nJmy7iULF7).
-
-This project builds upon several recent publications that use the distributed information bottleneck to restrict and monitor information in composite systems:
+- [*Attribution via Distributional Paths for Information Revelation,*](https://arxiv.org/abs/2606.03885) arXiv 2026.
+- [*Where is the information in data?,*](https://kieranamurphy.com/information_explorable/) IEEE VIS 2024 workshop, \href{https://visxai.io/}{``Visualization for AI Explainability (visXAI)''}.
 - [*Surveying the Space of Descriptions of a Composite System with Machine Learning,*](https://journals.aps.org/prl/abstract/10.1103/gxrh-2xsv) Physical Review Letters 2025.
 - [*Information decomposition in complex systems via machine learning,*](https://www.pnas.org/doi/10.1073/pnas.2312988121) PNAS 2024.
 - [*Interpretability with full complexity by constraining feature information,*](https://openreview.net/forum?id=R_OL5mLhsv) ICLR 2023.
+
 
 </div>
 
@@ -74,31 +101,6 @@ It turns out that both become easier if you force representations to be probabil
 
 **Research highlights:**
 - [*Comparing the information content of probabilistic representation spaces,*](https://openreview.net/forum?id=adhsMqURI1) TMLR 2025.
-
-</div>
-
----
-
-## Information games
-
-<div class="project" markdown="1">
-
-<figure style="float:right; margin-left: 20px; margin-bottom: 10px; text-align:center; width:200px;">
-  <img src="/assets/img/pawn_chess.png" alt="artist rendition of information games" loading="lazy" width="200">
-</figure>
-
-<br>
-
-What happens in multi-agent scenarios when information is not a means to some other end, but rather the ultimate objective itself?
-
-Do effective strategies for deceit and for efficient sensing arise naturally?
-
-Using tools we've developed to characterize the nature of distributed information, we are studying how agents acquire information and deceive their opponents.
-
-**Research highlights:**
-- [*InfoChess: A Game of Adversarial Inference and a Laboratory for
-  Quantifiable Information Control,*](https://arxiv.org/abs/2604.15373) Adaptive and Learning Agents Workshop, AAMAS 2026.
-
 
 </div>
 
